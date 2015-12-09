@@ -1,24 +1,18 @@
-# Hello API
+# Hello API: Pt. II
 
-Today we will write our first API and make a call to it.
+
+## Installing
+
+- Just run `npm install` in this directory and npm will read the `package.json` and install `monk` automatically for you
+
+## Notes:
+
+- We are using a package called `monk` to access the `mongo` database. More info [here](https://www.npmjs.com/package/monk)
 
 ## Step One
 
-In the server.js file create an HTTP server, there is already a function to read a file.
-
-1. When it receives a request with url `/` or `/index.html` send the file `index.html` as the response.
-1. When it receives a request with `/app.js` send the file `app.js` as the response
-1. When it receives a request with `/api` send the file `data.json` as a the response.
-1. When it receives a request with any other URL send message back to the user with statusCode 404.
-
-# BONUS
-
-In the app.js
-
-1. Make an AJAX get request using jQuery to the url `localhost:8000/data.json`
-1. console.log the result
-
-# Testing
-
-1. Open `localhost:8000` in the browser with the url you want to test.
-1. For the bonus: open up the console and see the result!
+1. Remove route for `api`
+1. Add routes for `api/create`
+  - when this route is called create any object in a collection.
+1. Add routes for `api/get`
+  - when this route is called return all objects in a collection.

@@ -1,9 +1,15 @@
 'use strict';
 
-//TODO implement the jQuery ajax call here and console log the data
+function getData() {
+  $.get("http://localhost:8000/api/get", function(data) {
+    console.log(data);
+  });
+}
 
-//See https://api.jquery.com/jquery.get/ for an example of the get function
+function createData() {
+  $.get("http://localhost:8000/api/create", function(data) {
+    console.log(data);
+  });
+}
 
-//Alternatively
-
-//See http://api.jquery.com/jquery.ajax/ for an exmaple of the ajax function
+createData();
