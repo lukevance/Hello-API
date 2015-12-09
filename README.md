@@ -11,7 +11,7 @@ In the server.js file create an HTTP server, there is already a function to read
 1. When it receives a request with `/api` send the file `data.json` as a the response.
 1. When it receives a request with any other URL send message back to the user with statusCode 404.
 
-# BONUS: Step Two
+# BONUS
 
 In the app.js
 
@@ -21,4 +21,4 @@ In the app.js
 # Testing
 
 1. Open `localhost:8000` in the browser with the url you want to test.
-1. For step two: Open up the console and see the result!
+1. For the bonus: open up the console and see the result!
