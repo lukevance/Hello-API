@@ -18,7 +18,7 @@ In the app.js
 1. Make an AJAX get request using jQuery to the url `localhost:8000/data.json`
 1. console.log the result
 
-# Step Three
+# Testing
 
-1. Open up `localhost:8000` in the browser
-1. Open up the console and see the result!
+1. Open `localhost:8000` in the browser with the url you want to test.
+1. For step two: Open up the console and see the result!
