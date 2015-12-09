@@ -11,7 +11,7 @@ In the server.js file create an HTTP server, there is already a function to read
 1. When it receives a request with `/api` send the file `data.json` as a the response.
 1. When it receives a request with any other URL send message back to the user with statusCode 404.
 
-# Step Two
+# BONUS: Step Two
 
 In the app.js
 
